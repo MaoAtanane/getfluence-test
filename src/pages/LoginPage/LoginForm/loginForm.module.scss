@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.field {
+  display: flex;
+  margin: 0.5rem 0;
+}
+.button {
+  margin-top: 1rem;
+}
