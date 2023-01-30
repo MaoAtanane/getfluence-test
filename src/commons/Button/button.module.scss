@@ -1,0 +1,76 @@
+@import "../../styles/variables";
+.container {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  color: $white-color;
+  border: none;
+  cursor: pointer;
+  &:disabled {
+    cursor: unset;
+  }
+}
+.large {
+  font-size: 1.1rem;
+  padding: 0.7rem 2rem;
+}
+.medium {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+.small {
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+}
+.fullWidth {
+  width: 100%;
+}
+.contained {
+  &.primary {
+    background-color: $primary-color-light;
+    border: 1px solid $primary-color-light;
+    &:hover {
+      background-color: $primary-color-main;
+      border: 1px solid $primary-color-main;
+    }
+  }
+  &.secondary {
+    background-color: $secondary-color-light;
+    border: 1px solid $secondary-color-light;
+    &:hover {
+      background-color: $secondary-color-main;
+      border: 1px solid $secondary-color-light;
+    }
+  }
+  &:disabled {
+    background-color: $grey-color !important;
+    border: 1px solid $grey-color !important;
+  }
+}
+.outlined {
+  &.primary {
+    background-color: unset;
+    border: 1px solid $primary-color-main;
+    color: $primary-color-main;
+    &:hover {
+      background-color: $primary-color-transparent;
+    }
+  }
+  &.secondary {
+    background-color: unset;
+    border: 1px solid $secondary-color-main;
+    color: $secondary-color-main;
+    &:hover {
+      background-color: $secondary-color-transparent;
+    }
+  }
+  &:disabled {
+    border: 1px solid $grey-color;
+    color: $grey-color;
+    background-color: unset !important;
+  }
+}
