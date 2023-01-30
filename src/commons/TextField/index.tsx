@@ -8,7 +8,7 @@ type TextFieldProps = {
   label?: string;
   value?: string;
   readOnly?: boolean;
-  error?: string;
+  error?: string | null;
   className?: string;
   id?: string;
 };
