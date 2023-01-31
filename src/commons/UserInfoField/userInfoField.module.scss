@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: $large-spacing;
+}
+.value {
+  font-size: 1.2rem;
+  font-weight: 400;
+}

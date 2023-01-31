@@ -13,6 +13,8 @@
   padding: 0.7rem 1rem;
   font-size: 1rem;
   width: calc(100% - 2rem);
+  z-index: 10;
+  background: unset;
 }
 .label {
   position: absolute;
@@ -28,14 +30,20 @@
   top: -0.6rem;
   left: 1rem;
   font-size: 0.8rem;
+
+  z-index: 20;
 }
 .input:focus + .label {
   @extend .focusedLabel;
 }
+.input:not(:placeholder-shown) + .label {
+  @extend .focusedLabel;
+}
+
 .errorContainer {
   border-color: $secondary-color-light;
 }
 .errorMessage {
   color: $secondary-color-light;
-  margin-left: 0.5rem;
+  margin-left: $small-spacing;
 }

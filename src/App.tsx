@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -9,16 +8,23 @@ import {
 import LoginPage from "./pages/LoginPage";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { authRouterElement } from "./utils/router";
+import ProfilePage from "./pages/ProfilePage";
+import "./App.css";
 
+export const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: Infinity,
+    },
+  },
+});
 const App: React.FC = () => {
-  const queryClient = new QueryClient();
-
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
         <Route index element={<LoginPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/test" element={authRouterElement(<LoginPage />)} />
+        <Route path="/profile" element={authRouterElement(<ProfilePage />)} />
         <Route path="*" element={<div>oops not found page</div>} />
       </>
     )

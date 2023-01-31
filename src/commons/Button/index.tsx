@@ -4,13 +4,14 @@ import styles from "./button.module.scss";
 
 type ButtonProps = {
   children: string;
-  onClick: () => void;
+  onClick?: () => void;
   variant?: "contained" | "outlined";
   color?: "primary" | "secondary";
   size?: "small" | "medium" | "large";
   disabled?: boolean;
   fullWidth?: boolean;
   className?: string;
+  type?: "submit" | "button";
 };
 const Button: React.FC<ButtonProps> = ({
   children,
@@ -21,6 +22,7 @@ const Button: React.FC<ButtonProps> = ({
   disabled = false,
   fullWidth = false,
   className,
+  type,
 }) => {
   return (
     <button
@@ -36,6 +38,7 @@ const Button: React.FC<ButtonProps> = ({
       )}
       onClick={onClick}
       disabled={disabled}
+      type={type}
     >
       {children}
     </button>

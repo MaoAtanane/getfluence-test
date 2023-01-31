@@ -7,7 +7,7 @@ const Loader: React.FC = () => {
       <div className={styles.loaderContent}>
         <img
           className={styles.loaderIcon}
-          src={"/images/loader.svg"}
+          src={"/assets/images/loader.svg"}
           alt={"leader icon"}
         />
       </div>

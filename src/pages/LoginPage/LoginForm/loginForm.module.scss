@@ -1,3 +1,4 @@
+@import "../../../styles/variables.scss";
 .container {
   display: flex;
   flex-direction: column;
@@ -7,8 +8,8 @@
 }
 .field {
   display: flex;
-  margin: 0.5rem 0;
+  margin: $small-spacing 0;
 }
 .button {
-  margin-top: 1rem;
+  margin-top: $medium-spacing;
 }

@@ -1,12 +1,13 @@
 import React, { useCallback, useState } from "react";
-import TextField from "../../../commons/TextField";
-import styles from "./loginForm.module.scss";
-import Button from "../../../commons/Button";
 import { useMutation } from "react-query";
-import { logInCall } from "../../../apiCalls/login";
-import Loader from "../../../commons/Loader";
 import { AxiosError } from "axios";
 import { useNavigate } from "react-router-dom";
+import { emailRegex } from "../../../utils/regex";
+import { logInCall } from "../../../apiCalls/login";
+import Loader from "../../../commons/Loader";
+import Button from "../../../commons/Button";
+import TextField from "../../../commons/TextField";
+import styles from "./loginForm.module.scss";
 
 const LoginForm: React.FC = () => {
   const [email, setEmail] = useState("");
@@ -23,15 +24,12 @@ const LoginForm: React.FC = () => {
   const mutation = useMutation(logInCall, {
     onError: (error: AxiosError) => {
       if (error.response?.status === 401 || error.response?.status === 403) {
+        localStorage.removeItem("token");
         setError({
           email: "Invalid email or password",
           passWord: "Invalid email or password",
         });
       }
-      setError({
-        email: "Invalid email or password",
-        passWord: "Invalid email or password",
-      });
     },
     onSuccess: (data) => {
       localStorage.setItem("token", data.data[0]?.token);
@@ -40,8 +38,21 @@ const LoginForm: React.FC = () => {
   });
 
   const handleSubmit = useCallback(
-    async (e: React.FormEvent<HTMLFormElement>) => {
+    (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
+      //  this form has only two fields, it will be heavy to import react-hook-form and yup just to validate an email
+      if (!email || !passWord || !emailRegex.test(email)) {
+        setError({
+          email: !email
+            ? "Email is required"
+            : !emailRegex.test(email)
+            ? "Invalid email"
+            : null,
+          passWord: !passWord ? "Password is required" : null,
+        });
+        return;
+      }
+
       mutation.mutate({ email, passWord });
     },
     [email, passWord]
@@ -65,7 +76,7 @@ const LoginForm: React.FC = () => {
           onChange={setPassWord}
           error={errors.passWord}
         ></TextField>
-        <Button onClick={() => {}} fullWidth className={styles.button}>
+        <Button type={"submit"} fullWidth className={styles.button}>
           Log In
         </Button>
       </form>
