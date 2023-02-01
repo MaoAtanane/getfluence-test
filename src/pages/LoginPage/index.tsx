@@ -2,11 +2,12 @@ import React from "react";
 
 import styles from "./login.module.scss";
 import LoginForm from "./LoginForm";
+import Card from "../../commons/Card";
 
 const LoginPage: React.FC = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.formCardContainer}>
+      <Card className={styles.formCardContainer}>
         <img
           className={styles.avatarIcon}
           src="/assets/images/avatar.svg"
@@ -15,7 +16,7 @@ const LoginPage: React.FC = () => {
         <h1 className={styles.title}>Login</h1>
         <h2 className={styles.subTitle}>Enter your credentials</h2>
         <LoginForm />
-      </div>
+      </Card>
     </div>
   );
 };

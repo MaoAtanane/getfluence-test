@@ -74,3 +74,16 @@
     background-color: unset !important;
   }
 }
+.onlyText {
+  background-color: unset;
+  padding: 0.2rem;
+  border: none;
+  color: unset;
+  &:hover {
+    background-color: $primary-color-transparent;
+  }
+  &:disabled {
+    color: $grey-color;
+    background-color: unset !important;
+  }
+}

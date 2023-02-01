@@ -3,7 +3,7 @@ import { describe, expect, test } from "vitest";
 import { render } from "@testing-library/react";
 import UserInfoField from "./index.js";
 
-describe("Button test", () => {
+describe("UserInfoField test", () => {
   test("should render correctly primary contained Button", () => {
     const contained = render(<UserInfoField icon={"user"} value={"test"} />);
     expect(contained).toMatchSnapshot();

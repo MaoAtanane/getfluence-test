@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.datePickerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: $large-spacing;
+}
+.dateInputContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: $medium-spacing;
+  width: 100%;
+
+  .dateDisplay {
+    border-radius: 5px;
+    background: $light-grey-color;
+    padding: $small-spacing $medium-spacing;
+    font-weight: 400;
+    margin-left: $medium-spacing;
+  }
+}

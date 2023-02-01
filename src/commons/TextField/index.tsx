@@ -6,7 +6,7 @@ import { UseFormRegister } from "react-hook-form";
 interface TextFieldProps {
   type?: React.HTMLInputTypeAttribute;
   name?: string;
-  onChange?: (value: string) => void;
+  onChange?: (value: string | Date) => void;
   label?: string;
   value?: string;
   readOnly?: boolean;

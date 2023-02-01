@@ -5,7 +5,7 @@ import styles from "./button.module.scss";
 type ButtonProps = {
   children: string;
   onClick?: () => void;
-  variant?: "contained" | "outlined";
+  variant?: "contained" | "outlined" | "text";
   color?: "primary" | "secondary";
   size?: "small" | "medium" | "large";
   disabled?: boolean;
@@ -34,6 +34,7 @@ const Button: React.FC<ButtonProps> = ({
         className,
         {
           [styles.fullWidth]: fullWidth,
+          [styles.onlyText]: variant === "text",
         }
       )}
       onClick={onClick}

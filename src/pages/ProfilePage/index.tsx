@@ -6,6 +6,7 @@ import EditeProfileInfos from "./EditeProfileInfos";
 import { getProfileCall } from "../../apiCalls/profile";
 import { useQuery } from "react-query";
 import Loader from "../../commons/Loader";
+import Card from "../../commons/Card";
 
 const ProfilePage: React.FC = () => {
   const [isEditingProfile, setIsEditingProfile] = React.useState(false);
@@ -16,7 +17,7 @@ const ProfilePage: React.FC = () => {
   }
   return (
     <div className={styles.container}>
-      <div className={styles.layoutCard}>
+      <Card className={styles.layoutCard}>
         <div className={styles.titleContainer}>
           <h1>Profile</h1>
           {!isEditingProfile && (
@@ -43,7 +44,7 @@ const ProfilePage: React.FC = () => {
             />
           )}
         </div>
-      </div>
+      </Card>
     </div>
   );
 };

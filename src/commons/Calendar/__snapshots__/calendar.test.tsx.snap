@@ -1,0 +1,1206 @@
+// Vitest Snapshot v1
+
+exports[`Calendar test > should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_ab995a"
+      >
+        <div
+          class="_datePickerContainer_ab995a"
+        >
+          <div
+            class="_dateInputContainer_ab995a"
+          >
+            <h3>
+              Data
+            </h3>
+            <span
+              class="_dateDisplay_ab995a"
+            >
+              1/1/2021
+            </span>
+          </div>
+          <div
+            class="_container_e67d13"
+          >
+            <div
+              class="_dateNavAndLabelContainer_e67d13"
+            >
+              <h3
+                class="_title_e67d13"
+              >
+                February 2023
+              </h3>
+              <div
+                class="_navButtonContainer_e67d13"
+              >
+                <button
+                  class="_container_1e4b97 _text_1e4b97 _primary_1e4b97 _medium_1e4b97 _button_e67d13 _onlyText_1e4b97"
+                >
+                  &lt;
+                </button>
+                <button
+                  class="_container_1e4b97 _text_1e4b97 _primary_1e4b97 _medium_1e4b97 _button_e67d13 _onlyText_1e4b97"
+                >
+                  &gt;
+                </button>
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th
+                    class="_th_e67d13"
+                  >
+                    S
+                  </th>
+                  <th
+                    class="_th_e67d13"
+                  >
+                    M
+                  </th>
+                  <th
+                    class="_th_e67d13"
+                  >
+                    T
+                  </th>
+                  <th
+                    class="_th_e67d13"
+                  >
+                    W
+                  </th>
+                  <th
+                    class="_th_e67d13"
+                  >
+                    T
+                  </th>
+                  <th
+                    class="_th_e67d13"
+                  >
+                    F
+                  </th>
+                  <th
+                    class="_th_e67d13"
+                  >
+                    S
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td />
+                  <td />
+                  <td />
+                  <td
+                    class="_td_e67d13"
+                    data-testid="1/2/2023"
+                  >
+                    1
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="2/2/2023"
+                  >
+                    2
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="3/2/2023"
+                  >
+                    3
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="4/2/2023"
+                  >
+                    4
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="5/2/2023"
+                  >
+                    5
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="6/2/2023"
+                  >
+                    6
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="7/2/2023"
+                  >
+                    7
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="8/2/2023"
+                  >
+                    8
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="9/2/2023"
+                  >
+                    9
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="10/2/2023"
+                  >
+                    10
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="11/2/2023"
+                  >
+                    11
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="12/2/2023"
+                  >
+                    12
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="13/2/2023"
+                  >
+                    13
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="14/2/2023"
+                  >
+                    14
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="15/2/2023"
+                  >
+                    15
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="16/2/2023"
+                  >
+                    16
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="17/2/2023"
+                  >
+                    17
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="18/2/2023"
+                  >
+                    18
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="19/2/2023"
+                  >
+                    19
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="20/2/2023"
+                  >
+                    20
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="21/2/2023"
+                  >
+                    21
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="22/2/2023"
+                  >
+                    22
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="23/2/2023"
+                  >
+                    23
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="24/2/2023"
+                  >
+                    24
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="25/2/2023"
+                  >
+                    25
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="26/2/2023"
+                  >
+                    26
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="27/2/2023"
+                  >
+                    27
+                  </td>
+                  <td
+                    class="_td_e67d13"
+                    data-testid="28/2/2023"
+                  >
+                    28
+                  </td>
+                  <td
+                    class="_td_e67d13 _greyText_e67d13"
+                    data-testid="1/3/2023"
+                  >
+                    1
+                  </td>
+                  <td
+                    class="_td_e67d13 _greyText_e67d13"
+                    data-testid="2/3/2023"
+                  >
+                    2
+                  </td>
+                  <td
+                    class="_td_e67d13 _greyText_e67d13"
+                    data-testid="3/3/2023"
+                  >
+                    3
+                  </td>
+                  <td
+                    class="_td_e67d13 _greyText_e67d13"
+                    data-testid="4/3/2023"
+                  >
+                    4
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <div
+            class="_dateInputContainer_ab995a"
+          >
+            <h3>
+              Time
+            </h3>
+            <span
+              class="_dateDisplay_ab995a"
+            >
+              12
+              :00 
+              AM
+            </span>
+          </div>
+          <div
+            class="_container_35a602"
+          >
+            <div
+              class="_innerContainer_35a602"
+            >
+              <div
+                class="_hourContainer_35a602 _selected_35a602"
+                data-testid="12 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  12
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="01 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  01
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="02 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  02
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="03 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  03
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="04 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  04
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="05 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  05
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="06 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  06
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="07 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  07
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="08 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  08
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="09 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  09
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="10 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  10
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+                data-testid="11 : 00 AM"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  11
+                   : 00 AM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  12
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  01
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  02
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  03
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  04
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  05
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  06
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  07
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  08
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  09
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  10
+                   : 00 PM
+                </div>
+              </div>
+              <div
+                class="_hourContainer_35a602"
+              >
+                <div
+                  class="_hour_35a602"
+                >
+                  11
+                   : 00 PM
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_ab995a"
+    >
+      <div
+        class="_datePickerContainer_ab995a"
+      >
+        <div
+          class="_dateInputContainer_ab995a"
+        >
+          <h3>
+            Data
+          </h3>
+          <span
+            class="_dateDisplay_ab995a"
+          >
+            1/1/2021
+          </span>
+        </div>
+        <div
+          class="_container_e67d13"
+        >
+          <div
+            class="_dateNavAndLabelContainer_e67d13"
+          >
+            <h3
+              class="_title_e67d13"
+            >
+              February 2023
+            </h3>
+            <div
+              class="_navButtonContainer_e67d13"
+            >
+              <button
+                class="_container_1e4b97 _text_1e4b97 _primary_1e4b97 _medium_1e4b97 _button_e67d13 _onlyText_1e4b97"
+              >
+                &lt;
+              </button>
+              <button
+                class="_container_1e4b97 _text_1e4b97 _primary_1e4b97 _medium_1e4b97 _button_e67d13 _onlyText_1e4b97"
+              >
+                &gt;
+              </button>
+            </div>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th
+                  class="_th_e67d13"
+                >
+                  S
+                </th>
+                <th
+                  class="_th_e67d13"
+                >
+                  M
+                </th>
+                <th
+                  class="_th_e67d13"
+                >
+                  T
+                </th>
+                <th
+                  class="_th_e67d13"
+                >
+                  W
+                </th>
+                <th
+                  class="_th_e67d13"
+                >
+                  T
+                </th>
+                <th
+                  class="_th_e67d13"
+                >
+                  F
+                </th>
+                <th
+                  class="_th_e67d13"
+                >
+                  S
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td />
+                <td />
+                <td />
+                <td
+                  class="_td_e67d13"
+                  data-testid="1/2/2023"
+                >
+                  1
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="2/2/2023"
+                >
+                  2
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="3/2/2023"
+                >
+                  3
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="4/2/2023"
+                >
+                  4
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="_td_e67d13"
+                  data-testid="5/2/2023"
+                >
+                  5
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="6/2/2023"
+                >
+                  6
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="7/2/2023"
+                >
+                  7
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="8/2/2023"
+                >
+                  8
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="9/2/2023"
+                >
+                  9
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="10/2/2023"
+                >
+                  10
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="11/2/2023"
+                >
+                  11
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="_td_e67d13"
+                  data-testid="12/2/2023"
+                >
+                  12
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="13/2/2023"
+                >
+                  13
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="14/2/2023"
+                >
+                  14
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="15/2/2023"
+                >
+                  15
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="16/2/2023"
+                >
+                  16
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="17/2/2023"
+                >
+                  17
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="18/2/2023"
+                >
+                  18
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="_td_e67d13"
+                  data-testid="19/2/2023"
+                >
+                  19
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="20/2/2023"
+                >
+                  20
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="21/2/2023"
+                >
+                  21
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="22/2/2023"
+                >
+                  22
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="23/2/2023"
+                >
+                  23
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="24/2/2023"
+                >
+                  24
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="25/2/2023"
+                >
+                  25
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="_td_e67d13"
+                  data-testid="26/2/2023"
+                >
+                  26
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="27/2/2023"
+                >
+                  27
+                </td>
+                <td
+                  class="_td_e67d13"
+                  data-testid="28/2/2023"
+                >
+                  28
+                </td>
+                <td
+                  class="_td_e67d13 _greyText_e67d13"
+                  data-testid="1/3/2023"
+                >
+                  1
+                </td>
+                <td
+                  class="_td_e67d13 _greyText_e67d13"
+                  data-testid="2/3/2023"
+                >
+                  2
+                </td>
+                <td
+                  class="_td_e67d13 _greyText_e67d13"
+                  data-testid="3/3/2023"
+                >
+                  3
+                </td>
+                <td
+                  class="_td_e67d13 _greyText_e67d13"
+                  data-testid="4/3/2023"
+                >
+                  4
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <div
+          class="_dateInputContainer_ab995a"
+        >
+          <h3>
+            Time
+          </h3>
+          <span
+            class="_dateDisplay_ab995a"
+          >
+            12
+            :00 
+            AM
+          </span>
+        </div>
+        <div
+          class="_container_35a602"
+        >
+          <div
+            class="_innerContainer_35a602"
+          >
+            <div
+              class="_hourContainer_35a602 _selected_35a602"
+              data-testid="12 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                12
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="01 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                01
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="02 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                02
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="03 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                03
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="04 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                04
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="05 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                05
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="06 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                06
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="07 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                07
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="08 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                08
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="09 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                09
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="10 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                10
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+              data-testid="11 : 00 AM"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                11
+                 : 00 AM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                12
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                01
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                02
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                03
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                04
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                05
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                06
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                07
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                08
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                09
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                10
+                 : 00 PM
+              </div>
+            </div>
+            <div
+              class="_hourContainer_35a602"
+            >
+              <div
+                class="_hour_35a602"
+              >
+                11
+                 : 00 PM
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

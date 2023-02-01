@@ -1,0 +1,28 @@
+@import "../../../styles/variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  max-height: 18rem;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hourContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $small-spacing $medium-spacing;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover,
+  &.selected {
+    background: $light-grey-color;
+  }
+  .hour {
+  }
+}
