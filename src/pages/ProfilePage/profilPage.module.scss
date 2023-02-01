@@ -20,8 +20,17 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  .title {
+    margin-right: $medium-spacing;
+  }
 }
 .profileInfosContainer {
   width: 100%;
   margin-top: $large-spacing;
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .layoutCard {
+    min-width: 100px;
+  }
 }

@@ -19,7 +19,7 @@ const ProfilePage: React.FC = () => {
     <div className={styles.container}>
       <Card className={styles.layoutCard}>
         <div className={styles.titleContainer}>
-          <h1>Profile</h1>
+          <h1 className={styles.title}>Profile</h1>
           {!isEditingProfile && (
             <Button
               onClick={() => {

@@ -8,7 +8,13 @@
 
 ### Architecture diagrams
 
-... \[add diagrams here\]
+the app follows a page oriented Atomic Design pattern.
+The base components "Atoms" are located in the `src/commons` folder.
+The "Molecules" used by each page are declared inside of the gape folder `src/pages`.
+    As exmaple, the `src/pages/loginPage` folder contains  `src/pages/loginPage/LoginForm` which is a Molecules used only inside loginPage.
+The global "Molecules" are located in the `src/components` folder.
+The "Organisms" are located in their appropriate page folder.
+The global "Organisms" are located in the `src/containers` folder.
 
 ## Setup
 
@@ -45,10 +51,12 @@ It's also convenient to integrate the linter warnings into your code editor, the
 The testing strategy for this project is based on the following two libraries:
 
 * [react-testing-library](https://github.com/kentcdodds/react-testing-library): these are some testing utilities that allow you to write tests that work with actual DOM nodes. 
-* [Vitest](https://vitest.dev/guide/): test runner developed by Vite. It is also used to mock some of the modules that are required on the tests.
+* [Vitest](https://vitest.dev/guide/): Vitest is a test runner developed by Vite. It is also used to mock some of the modules that are required on the tests.
 
 ## Routes
 
 This project is using [`react-router-dom v6`](https://reacttraining.com/react-router/core), have a look at `App.tsx` which is the file that defines the routes that are available.
 
 
+## Development time
+Approximately 10 hours non continuous.
