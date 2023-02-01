@@ -5,6 +5,7 @@
 - [React](https://reactjs.org/) single page application
 - Bundling using [Vite](https://vitejs.dev/)
 - Routing done using [React Router](https://reactrouter.com/en/main)
+- Typescript [Typescript](https://www.typescriptlang.org/)
 
 ### Architecture diagrams
 
@@ -33,7 +34,7 @@ This project implements [SASS](http://sass-lang.com/).
 
 The styles for each component are therefore located in their corresponding `<component_name>.module.scss` file.
 
-There's also a utility folder under `src/styles`. The folder contains some common variables, mixins and other stuff that is meant to be reused from other SASS files.
+There's also a utility folder under `src/styles`. The folder contains some common variables `src/styles/_variables.sccs`, mixins and other stuff that is meant to be reused from other SASS files.
 
 ## Linter
 
@@ -57,6 +58,9 @@ The testing strategy for this project is based on the following two libraries:
 
 This project is using [`react-router-dom v6`](https://reacttraining.com/react-router/core), have a look at `App.tsx` which is the file that defines the routes that are available.
 
+## Api Calls
+Api calls are managed by react query and Axios.
+All the calls are cashed infinitely until revalidation by a user action.
 
 ## Development time
 Approximately 10 hours non continuous.
