@@ -8,12 +8,13 @@
   background-color: $white-color;
   display: flex;
   justify-content: flex-end;
-  padding: $small-spacing;
 }
 .buttonsContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  padding: $small-spacing;
   .button {
     margin: 0 $medium-spacing;
   }

@@ -9,13 +9,13 @@
 
 ### Architecture diagrams
 
-the app follows a page oriented Atomic Design pattern.
-The base components "Atoms" are located in the `src/commons` folder.
-The "Molecules" used by each page are declared inside of the gape folder `src/pages`.
-    As exmaple, the `src/pages/loginPage` folder contains  `src/pages/loginPage/LoginForm` which is a Molecules used only inside loginPage.
-The global "Molecules" are located in the `src/components` folder.
-The "Organisms" are located in their appropriate page folder.
-The global "Organisms" are located in the `src/containers` folder.
+- the app follows a page oriented Atomic Design pattern.
+- The base components "Atoms" are located in the `src/commons` folder.
+- The "Molecules" used by each page are declared inside of the gape folder `src/pages`.
+    * As exmaple, the `src/pages/loginPage` folder contains  `src/pages/loginPage/LoginForm` which is a Molecules used only inside loginPage.
+- The global "Molecules" are located in the `src/components` folder.
+- The "Organisms" are located in their appropriate page folder.
+- The global "Organisms" are located in the `src/containers` folder.
 
 ## Setup
 
