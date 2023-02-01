@@ -7,6 +7,7 @@ import { getProfileCall } from "../../apiCalls/profile";
 import { useQuery } from "react-query";
 import Loader from "../../commons/Loader";
 import Card from "../../commons/Card";
+import Header from "../../components/Header";
 
 const ProfilePage: React.FC = () => {
   const [isEditingProfile, setIsEditingProfile] = React.useState(false);
@@ -17,6 +18,7 @@ const ProfilePage: React.FC = () => {
   }
   return (
     <div className={styles.container}>
+      <Header />
       <Card className={styles.layoutCard}>
         <div className={styles.titleContainer}>
           <h1 className={styles.title}>Profile</h1>
